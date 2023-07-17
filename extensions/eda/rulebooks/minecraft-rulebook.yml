@@ -10,4 +10,4 @@
       condition: event.container.name == "minecraft-server" and event.mc_event_type == "Spawned"
       action:
         run_playbook:
-          name: /eda/minecraft-playbook.yml
+          name: /playbooks/minecraft-playbook.yml

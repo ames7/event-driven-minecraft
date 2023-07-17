@@ -97,10 +97,10 @@ services:
     depends_on:
       - mosquitto
     volumes:
-      - ./eda:/eda
+      - ./extensions/eda:/extensions/eda
     command: >
       ansible-rulebook
-      --rulebook /eda/minecraft-rulebook.yml
-      --inventory /eda/inventory.yml
-      --source-dir /eda/
+      --rulebook /extensions/eda/minecraft-rulebook.yml
+      --inventory /inventory.yml
+      --source-dir /extensions/eda/
       --verbose
