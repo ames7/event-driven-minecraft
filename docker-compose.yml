@@ -19,7 +19,7 @@ services:
     ports:
       - 19132:19132/udp
     volumes:
-      - /path/to/your/data:/data
+      - ./data:/data
     labels:
       minecraft_bedrock_server: "true"
     stdin_open: true
@@ -97,10 +97,10 @@ services:
     depends_on:
       - mosquitto
     volumes:
-      - ./extensions/eda:/extensions/eda
+      - ./eda:/eda
     command: >
       ansible-rulebook
-      --rulebook /extensions/eda/minecraft-rulebook.yml
-      --inventory /inventory.yml
-      --source-dir /extensions/eda/
+      --rulebook /extensions/eda/rulebooks/minecraft-rulebook1.yml
+      --inventory /extensions/eda/inventory.yml
+      --source-dir /extensions/eda/plugins
       --verbose
