@@ -100,7 +100,7 @@ services:
       - ./eda:/eda
     command: >
       ansible-rulebook
-      --rulebook /extensions/eda/rulebooks/minecraft-rulebook1.yml
+      --rulebook /extensions/eda/minecraft-rulebook.yml
       --inventory /extensions/eda/inventory.yml
       --source-dir /extensions/eda/plugins
       --verbose

@@ -5832,3 +5832,10 @@ data/worlds/Bedrock level/db/000531.ldb
 data/worlds/Bedrock level/db/000532.log
 data/worlds/Bedrock level/db/CURRENT
 data/worlds/Bedrock level/db/MANIFEST-000530
+extensions/eda/minecraft-rulebook.yml
+data/worlds/Bedrock level/db/000534.ldb
+data/worlds/Bedrock level/db/000537.ldb
+data/worlds/Bedrock level/db/000538.log
+data/worlds/Bedrock level/db/MANIFEST-000536
+.gitignore
+.gitignore
